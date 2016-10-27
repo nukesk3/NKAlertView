@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Demo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="hCp-ys-52K">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="dga-qO-1W7"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s90-6P-Su8">
+                                <state key="normal" title="show alert dark">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="showAlertDark:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gn2-mz-XuA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NxA-zv-8eL">
+                                <state key="normal" title="show alert light">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="showAlertLight:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YCx-RW-Xzg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RZb-vQ-Izm">
+                                <state key="normal" title="show alert extralight">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="showAlertExtraLight:" destination="BYZ-38-t0r" eventType="touchUpInside" id="krZ-Od-mBG"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BbT-at-BaI">
+                                <state key="normal" title="show alert none">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="showAlertNone:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Aac-IO-U67"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zI2-xO-4Tr">
+                                <state key="normal" title="show alert 3button">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="showAlert3Buttons:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KNV-by-C8p"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="zI2-xO-4Tr" firstAttribute="centerX" secondItem="hCp-ys-52K" secondAttribute="centerX" id="18I-Kz-QFK"/>
+                            <constraint firstItem="NxA-zv-8eL" firstAttribute="top" secondItem="s90-6P-Su8" secondAttribute="bottom" constant="15" id="3W0-ta-JDy"/>
+                            <constraint firstAttribute="trailing" secondItem="dga-qO-1W7" secondAttribute="trailing" id="61y-f9-gFs"/>
+                            <constraint firstItem="zI2-xO-4Tr" firstAttribute="top" secondItem="BbT-at-BaI" secondAttribute="bottom" constant="15" id="Ewa-kr-tUM"/>
+                            <constraint firstItem="NxA-zv-8eL" firstAttribute="centerX" secondItem="hCp-ys-52K" secondAttribute="centerX" id="MDh-4e-LOm"/>
+                            <constraint firstItem="dga-qO-1W7" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="Tk7-yj-pq6"/>
+                            <constraint firstItem="RZb-vQ-Izm" firstAttribute="centerY" secondItem="hCp-ys-52K" secondAttribute="centerY" id="WX3-a4-FFf"/>
+                            <constraint firstItem="dga-qO-1W7" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="XU9-cb-qsb"/>
+                            <constraint firstItem="BbT-at-BaI" firstAttribute="centerX" secondItem="hCp-ys-52K" secondAttribute="centerX" id="dhf-gn-DuQ"/>
+                            <constraint firstItem="RZb-vQ-Izm" firstAttribute="centerX" secondItem="hCp-ys-52K" secondAttribute="centerX" id="fbD-jv-uHu"/>
+                            <constraint firstItem="dga-qO-1W7" firstAttribute="leading" secondItem="hCp-ys-52K" secondAttribute="leading" id="kOK-WK-xeg"/>
+                            <constraint firstItem="s90-6P-Su8" firstAttribute="centerX" secondItem="hCp-ys-52K" secondAttribute="centerX" id="r34-da-6Gc"/>
+                            <constraint firstItem="RZb-vQ-Izm" firstAttribute="top" secondItem="NxA-zv-8eL" secondAttribute="bottom" constant="15" id="tk7-Zd-xBB"/>
+                            <constraint firstItem="BbT-at-BaI" firstAttribute="top" secondItem="RZb-vQ-Izm" secondAttribute="bottom" constant="15" id="vBM-tw-BZF"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="image.jpg" width="1080" height="1920"/>
+    </resources>
+</document>

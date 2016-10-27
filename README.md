@@ -20,11 +20,11 @@ Download and drop `/NKAlertView` folder in your project.
 ```swift
 let alert = NKAlertView(title: "title",description: "This is a more descriptive info text.",image: UIImage(named: "image.png"),style: .dark)
 
-alertVC.addAction(NKAlertAction(title: "Cancel", style: .cancel, action: { () -> Void in
+alert.addAction(NKAlertAction(title: "Cancel", style: .cancel, action: { () -> Void in
   print("Cancel")
 }))
 
-alertVC.addAction(NKAlertAction(title: "OK", style: .default, action: { () in
+alert.addAction(NKAlertAction(title: "OK", style: .default, action: { () in
   print("OK")
 }))
 

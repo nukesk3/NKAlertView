@@ -1,5 +1,7 @@
 # NKAlertView
 
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
+
 Easily customizable AlertView library available.It is written in swift.
 
 <p align="center">
@@ -14,7 +16,11 @@ Easily customizable AlertView library available.It is written in swift.
 comming soon....
 
 #### Carthage
-comming soon....
+
+Just add to your Cartfile:
+```
+github "nukesk3/NKAlertView"
+```
 
 #### Manually
 

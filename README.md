@@ -1,6 +1,11 @@
 # NKAlertView
 
-Concise AlertView library written in swift.
+Easily customizable AlertView library available.It is written in swift.
+
+<p align="center">
+  <img src="Screenshots/pre_screenshot1.png" width=250 alt="Icon"/>
+  <img src="Screenshots/pre_screenshot2.png" width=250 alt="Icon"/>
+</p>
 
 
 ## Installation

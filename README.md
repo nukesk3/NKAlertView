@@ -1,6 +1,7 @@
 # NKAlertView
 
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
+[![Pod version](https://badge.fury.io/co/NKAlertView.svg)](https://cocoapods.org/pods/NKAlertView)
 
 Easily customizable AlertView library available.It is written in swift.
 
@@ -14,7 +15,15 @@ Easily customizable AlertView library available.It is written in swift.
 ## Installation
 
 #### Cocoapods
-comming soon....
+
+To integrate NKAlertView into your Xcode project using CocoaPods, specify it in your Podfile and run pod install.
+
+```
+platform :ios, '9.0'
+use_frameworks!
+
+pod 'NKAlertView'
+```
 
 #### Carthage
 

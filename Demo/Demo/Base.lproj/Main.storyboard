@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -59,6 +58,14 @@
                                     <action selector="showAlert3Buttons:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KNV-by-C8p"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4gY-Ch-hBZ">
+                                <state key="normal" title="show not image">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="showNotImage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9wC-tU-5Jv"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -67,6 +74,7 @@
                             <constraint firstAttribute="trailing" secondItem="dga-qO-1W7" secondAttribute="trailing" id="61y-f9-gFs"/>
                             <constraint firstItem="zI2-xO-4Tr" firstAttribute="top" secondItem="BbT-at-BaI" secondAttribute="bottom" constant="15" id="Ewa-kr-tUM"/>
                             <constraint firstItem="NxA-zv-8eL" firstAttribute="centerX" secondItem="hCp-ys-52K" secondAttribute="centerX" id="MDh-4e-LOm"/>
+                            <constraint firstItem="4gY-Ch-hBZ" firstAttribute="centerX" secondItem="hCp-ys-52K" secondAttribute="centerX" id="SZH-8p-hqi"/>
                             <constraint firstItem="dga-qO-1W7" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="Tk7-yj-pq6"/>
                             <constraint firstItem="RZb-vQ-Izm" firstAttribute="centerY" secondItem="hCp-ys-52K" secondAttribute="centerY" id="WX3-a4-FFf"/>
                             <constraint firstItem="dga-qO-1W7" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="XU9-cb-qsb"/>
@@ -76,6 +84,7 @@
                             <constraint firstItem="s90-6P-Su8" firstAttribute="centerX" secondItem="hCp-ys-52K" secondAttribute="centerX" id="r34-da-6Gc"/>
                             <constraint firstItem="RZb-vQ-Izm" firstAttribute="top" secondItem="NxA-zv-8eL" secondAttribute="bottom" constant="15" id="tk7-Zd-xBB"/>
                             <constraint firstItem="BbT-at-BaI" firstAttribute="top" secondItem="RZb-vQ-Izm" secondAttribute="bottom" constant="15" id="vBM-tw-BZF"/>
+                            <constraint firstItem="4gY-Ch-hBZ" firstAttribute="top" secondItem="zI2-xO-4Tr" secondAttribute="bottom" constant="15" id="yGU-P9-Laz"/>
                         </constraints>
                     </view>
                 </viewController>

@@ -5,8 +5,9 @@
 Easily customizable AlertView library available.It is written in swift.
 
 <p align="center">
-  <img src="Screenshots/pre_screenshot1.png" width=250 alt="Icon"/>
-  <img src="Screenshots/pre_screenshot2.png" width=250 alt="Icon"/>
+  <img src="Screenshots/pre_screenshot_1.png" width=250 alt="Icon"/>
+  <img src="Screenshots/pre_screenshot_2.png" width=250 alt="Icon"/>
+  <img src="Screenshots/pre_screenshot_3.png" width=250 alt="Icon"/>
 </p>
 
 

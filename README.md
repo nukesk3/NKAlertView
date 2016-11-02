@@ -1,7 +1,7 @@
 # NKAlertView
 
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
-[![Version](https://img.shields.io/cocoapods/v/NKAlertView.svg?style=flat)](http://cocoadocs.org/pods/NKAlertView/)
+[![Version](https://img.shields.io/cocoapods/v/NKAlertView.svg?style=flat)](https://cocoapods.org/pods/NKAlertView)
 
 Easily customizable AlertView library available.It is written in swift.
 

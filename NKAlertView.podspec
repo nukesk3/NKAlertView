@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "NKAlertView"
-  s.version      = "0.1.1"
+  s.version      = "0.1.2"
   s.summary      = "Easily customizable AlertView library available.It is written in swift."
   s.homepage     = "https://github.com/nukesk3/NKAlertView"
   s.license      = { :type => "MIT", :file => "LICENSE" }
